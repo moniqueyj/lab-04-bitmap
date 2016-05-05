@@ -8,6 +8,9 @@ exports.bitmapHeader = function(image, callback) {
       callback(err, null);
       return;
     }
-    callback(null, data.toString('utf8', 0, 2));
+    callback(null, data);
   });
 };
+
+
+//create a write module
