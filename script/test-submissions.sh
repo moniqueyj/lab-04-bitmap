@@ -19,7 +19,7 @@ notice(){
 
 exit_code=0
 
-for submission in ./lab-*;do
+for submission in ./bitmap-*;do
   pushd . > /dev/null
   cd "$submission"
   npm install 
