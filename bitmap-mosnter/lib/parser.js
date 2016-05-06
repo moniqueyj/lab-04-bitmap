@@ -16,9 +16,9 @@ module.exports.Buffobject = function(data) {
   this.colorplains = data.readIntLE(26);
   this.bitsperpixel = data.readIntLE(28);
   this.compressionobject = data.readInt32LE(30);
-
   this.horizontalrez = data.readInt32LE(38);
   this.vertrez = data.readInt32LE(42);
+
 };
 //make a method to turn object into buffer
 // module.exports.Buffobject.prototype.toBuffer = function () {
