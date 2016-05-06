@@ -14,3 +14,14 @@ exports.bitmapHeader = function(image, callback) {
 
 
 //create a write module
+
+exports.newbitmapfile = function(buffer, callback) {
+  fs.writeFile('newimage.bmp', buffer, (err) => {
+    if (err) {
+      console.err;
+      callback(err, null);
+      return;
+    }
+    callback(null, 'newimage.bmp');
+  });
+};
