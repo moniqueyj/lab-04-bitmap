@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/andrewpeterwatson/lab-04-bitmap/issues"
   },
-  "homepage": "https://github.com/andrewpeterwatson/lab-04-bitmap#readme"
+  "homepage": "https://github.com/andrewpeterwatson/lab-04-bitmap#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0"
+  }
 }
