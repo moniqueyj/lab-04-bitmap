@@ -16,12 +16,12 @@ exports.bitmapHeader = function(image, callback) {
 //create a write module
 
 exports.newbitmapfile = function(buffer, callback) {
-  fs.writeFile(__dirname + 'newimage.bmp', buffer, (err) => {
+  fs.writeFile(__dirname + 'new-bitmap.bmp', buffer, (err) => {
     if (err) {
       console.err;
       callback(err, null);
       return;
     }
-    callback(null, 'newimage.bmp');
+    callback(null, 'new-bitmap.bmp');
   });
 };
